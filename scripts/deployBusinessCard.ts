@@ -8,7 +8,7 @@ export async function run(provider: NetworkProvider) {
     $$type: 'User',
     name: "Liasun Yauheni",
     profession: "Frontend Developer",
-    bio: "I'll add more later:)"
+    bio: 'I\'ll add more later:)',
   }
 
   const businessCard = provider.open(await BusinessCard.fromInit(userInfo));
